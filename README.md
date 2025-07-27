@@ -40,12 +40,11 @@ You can install the primary dependencies with pip:
 ---
 
 ## Project Structure
-.
-├── data/
-│   └── intel.log         # The raw MIT-Intel dataset log file
-├── mit-intel-ds.ipynb    # Jupyter Notebook with the full data processing and training pipeline
-├── lidar_model.pth       # The final trained PyTorch model weights
-└── final_lidar_model.onnx # The final model exported to ONNX format
+- data/
+    - intel.log         # The raw MIT-Intel dataset log file
+- mit-intel-ds.ipynb    # Jupyter Notebook with the full data processing and training pipeline
+- lidar_model.pth       # The final trained PyTorch model weights
+- final_lidar_model.onnx # The final model exported to ONNX format
 
 ---
 
