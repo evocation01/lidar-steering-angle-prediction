@@ -35,8 +35,7 @@ This project is built primarily in Python and relies on the following libraries:
     -   `onnxruntime`: For running inference with the ONNX model.
 
 You can install the primary dependencies with pip:
-```bash
-pip install numpy torch scikit-learn matplotlib
+- pip install numpy torch scikit-learn matplotlib
 
 ---
 
